@@ -1,0 +1,6 @@
+@mixin square-img{
+    width: $square;
+    height: $square;
+    border-radius: 50%;
+    object-fit: cover;
+}

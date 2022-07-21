@@ -1,0 +1,54 @@
+body {
+  background-color: #c3cfe2;
+  font-size: 5vw;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.section-canvas {
+  width: 80%;
+  margin: 25px auto;
+  background-color: #fff;
+  border-radius: 25px;
+  position: relative;
+  z-index: -2;
+}
+.section-canvas::after {
+  background-color: #686de0;
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 38%;
+  transform: translate(0px, -175px);
+  border-radius: 0px 0px 25px 25px;
+  z-index: -1;
+}
+.section-canvas .tekst {
+  padding: 30px;
+  z-index: -1;
+}
+.section-canvas .image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 10px solid #fff;
+  z-index: 1;
+}
+.section-canvas .testo-foot {
+  padding-bottom: 5px;
+}
+.section-canvas .naam {
+  color: #fff;
+  text-transform: uppercase;
+}
+.section-canvas .testo-link {
+  color: #c3cfe2;
+  text-decoration: none;
+}
+.section-canvas .testo-link:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=site.css.map */
